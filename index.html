@@ -22,19 +22,27 @@
 
   <body>
     <!--Header-->
-    <header>
-      <nav class="navigation">
-        <a href="./index.html" class="nav-logo">Web<span>Studio</span></a>
+    <header class="page-header">
+      <nav class="header-nav">
+        <a class="logo nav-logo" href="./index.html"
+          >Web<span class="header-logo-accent">Studio</span></a
+        >
         <ul class="nav-list">
-          <li><a href="./index.html" target="_blank" class="nav-item">Studio</a></li>
-          <li><a href="" target="_blank" class="nav-item">Portfolio</a></li>
-          <li><a href="" target="_blank" class="nav-item">Contacts</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html" target="_blank">Studio</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="" target="_blank">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="" target="_blank">Contacts</a></li>
         </ul>
       </nav>
       <address class="contacts">
         <ul class="contacts-list">
-          <li><a href="mailto:info@devstudio.com" class="contacts-item">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111" class="contacts-item">+11 (000) 111-11-11</a></li>
+          <li class="contacts-item">
+            <a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="contacts-item">
+            <a class="contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+          </li>
         </ul>
       </address>
     </header>
@@ -43,37 +51,39 @@
     <main>
       <!--Section Hero-->
       <section class="hero">
-        <h1 class="hero-title">Effective solutions <span>for</span> your business</h1>
-        <button type="button" class="hero-button">Order Service</button>
+        <h1 class="hero-title">
+          Effective solutions <span class="hero-title-accent">for</span> your business
+        </h1>
+        <button class="hero-button" type="button">Order Service</button>
       </section>
 
       <!--Section About us-->
       <section>
-        <h2 class="section-title" hidden>About us</h2>
+        <h2 class="section-title about-title" hidden>About us</h2>
         <ul class="about-list">
-          <li>
-            <h3 class="about-title">Strategy</h3>
+          <li class="about-item">
+            <h3 class="about-subtitle">Strategy</h3>
             <p class="about-text">
               Our goal is to identify the business problem to walk away with the perfect and
               creative solution.
             </p>
           </li>
-          <li>
-            <h3 class="about-title">Punctuality</h3>
+          <li class="about-item">
+            <h3 class="about-subtitle">Punctuality</h3>
             <p class="about-text">
               Bring the key message to the brand's audience for the best price within the shortest
               possible time.
             </p>
           </li>
-          <li>
-            <h3 class="about-title">Diligence</h3>
+          <li class="about-item">
+            <h3 class="about-subtitle">Diligence</h3>
             <p class="about-text">
               Research and confirm brands with the strongest digital growth opportunities and
               minimize risk.
             </p>
           </li>
-          <li>
-            <h3 class="about-title">Technologies</h3>
+          <li class="about-item">
+            <h3 class="about-subtitle">Technologies</h3>
             <p class="about-text">
               Design practice focused on digital experiences. We bring forth a deep passion for
               problem-solving.
@@ -84,67 +94,108 @@
 
       <!--Section Our team-->
       <section class="team">
-        <h2 class="section-title">Our Team</h2>
-        <ul>
-          <li class="team-card">
-            <img src="./images/team-1.jpg" alt="Mark Guerrero" width="264" />
-            <h3 class="team-title">Mark Guerrero</h3>
-            <p class="team-text">Product Designer</p>
+        <h2 class="section-title team-title">Our Team</h2>
+        <ul class="team-card-list">
+          <li class="team-card-item">
+            <img
+              class="team-card-img"
+              src="./images/team/team-1.jpg"
+              alt="Mark Guerrero"
+              width="264"
+            />
+            <h3 class="team-card-title">Mark Guerrero</h3>
+            <p class="team-card-text">Product Designer</p>
           </li>
-          <li class="team-card">
-            <img src="./images/team-2.jpg" alt="Tom Ford" width="264" />
-            <h3 class="team-title">Tom Ford</h3>
-            <p class="team-text">Frontend Developer</p>
+          <li class="team-card-item">
+            <img class="team-card-img" src="./images/team/team-2.jpg" alt="Tom Ford" width="264" />
+            <h3 class="team-card-title">Tom Ford</h3>
+            <p class="team-card-text">Frontend Developer</p>
           </li>
-          <li class="team-card">
-            <img src="./images/team-3.jpg" alt="Camila Garcia" width="264" />
-            <h3 class="team-title">Camila Garcia</h3>
-            <p class="team-text">Marketing</p>
+          <li class="team-card-item">
+            <img
+              class="team-card-img"
+              src="./images/team/team-3.jpg"
+              alt="Camila Garcia"
+              width="264"
+            />
+            <h3 class="team-card-title">Camila Garcia</h3>
+            <p class="team-card-text">Marketing</p>
           </li>
-          <li class="team-card">
-            <img src="./images/team-4.jpg" alt="Daniel Wilson" width="264" />
-            <h3 class="team-title">Daniel Wilson</h3>
-            <p class="team-text">UI Designer</p>
+          <li class="team-card-item">
+            <img
+              class="team-card-img"
+              src="./images/team/team-4.jpg"
+              alt="Daniel Wilson"
+              width="264"
+            />
+            <h3 class="team-card-title">Daniel Wilson</h3>
+            <p class="team-card-text">UI Designer</p>
           </li>
         </ul>
       </section>
 
       <!--Section Portfolio-->
       <section>
-        <h2 class="section-title">Our Portfolio</h2>
-        <ul>
-          <li>
-            <img src="./images/portfolio-1.jpg" alt="Banking application" width="360" />
-            <h3 class="portfolio-title">Banking App</h3>
-            <p class="portfolio-text">App</p>
-          </li>
-          <li>
-            <img src="./images/portfolio-2.jpg" alt="Cashless payment by smartphone" width="360" />
-            <h3 class="portfolio-title">Cashless Payment</h3>
-            <p class="portfolio-text">Marketing</p>
-          </li>
-          <li>
-            <img src="./images/portfolio-3.jpg" alt="Laptop and smartphone" width="360" />
-            <h3 class="portfolio-title">Meditation App</h3>
-            <p class="portfolio-text">App</p>
-          </li>
-          <li>
-            <img src="./images/portfolio-4.jpg" alt="Man driving a car" width="360" />
-            <h3 class="portfolio-title">Taxi Service</h3>
-            <p class="portfolio-text">Marketing</p>
-          </li>
-          <li>
+        <h2 class="section-title portfolio-title">Our Portfolio</h2>
+        <ul class="portfolio-list">
+          <li class="portfolio-item">
             <img
-              src="./images/portfolio-5.jpg"
+              class="portfolio-img"
+              src="./images/portfolio/portfolio-1.jpg"
+              alt="Banking application"
+              width="360"
+            />
+            <h3 class="portfolio-subtitle">Banking App</h3>
+            <p class="portfolio-text">App</p>
+          </li>
+          <li class="portfolio-item">
+            <img
+              class="portfolio-img"
+              src="./images/portfolio/portfolio-2.jpg"
+              alt="Cashless payment by smartphone"
+              width="360"
+            />
+            <h3 class="portfolio-subtitle">Cashless Payment</h3>
+            <p class="portfolio-text">Marketing</p>
+          </li>
+          <li class="portfolio-item">
+            <img
+              class="portfolio-img"
+              src="./images/portfolio/portfolio-3.jpg"
+              alt="Laptop and smartphone"
+              width="360"
+            />
+            <h3 class="portfolio-subtitle">Meditation App</h3>
+            <p class="portfolio-text">App</p>
+          </li>
+          <li class="portfolio-item">
+            <img
+              class="portfolio-img"
+              src="./images/portfolio/portfolio-4.jpg"
+              alt="Man driving a car"
+              width="360"
+            />
+            <h3 class="portfolio-subtitle">Taxi Service</h3>
+            <p class="portfolio-text">Marketing</p>
+          </li>
+          <li class="portfolio-item">
+            <img
+              class="portfolio-img"
+              src="./images/portfolio/portfolio-5.jpg"
               alt="Smartphone and some background images"
               width="360"
             />
-            <h3 class="portfolio-title">Screen Illustrations</h3>
+            <h3 class="portfolio-subtitle">Screen Illustrations</h3>
             <p class="portfolio-text">Design</p>
           </li>
-          <li>
-            <img src="./images/portfolio-6.jpg" alt="Girl with smartphone" width="360" />
-            <h3 class="portfolio-title">Online Courses</h3>
+          <li class="portfolio-item">
+            <img
+              class="portfolio-img"
+              src="./images/portfolio/portfolio-6.jpg"
+              alt="Girl with smartphone"
+              width="360"
+            />
+            <h3 class="portfolio-subtitle">Online Courses</h3>
             <p class="portfolio-text">Marketing</p>
           </li>
         </ul>
@@ -153,7 +204,7 @@
 
     <!--Footer-->
     <footer class="footer">
-      <a class="footer-logo" href="./index.html"
+      <a class="logo footer-logo" href="./index.html"
         >Web<span class="footer-logo-accent">Studio</span></a
       >
       <p class="footer-text">

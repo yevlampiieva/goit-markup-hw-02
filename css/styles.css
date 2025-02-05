@@ -22,11 +22,8 @@ h3 {
   color: #2e2f42;
 }
 
-.navigation {
-  color: #2e2f42;
-}
-
-.nav-logo {
+/* ----- Header ----- */
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -36,35 +33,33 @@ h3 {
   color: #4d5ae5;
 }
 
-.nav-logo span {
+.header-logo-accent {
   color: #2e2f42;
 }
 
-.nav-list a {
+.nav-link {
   font-weight: 500;
   letter-spacing: 0.02em;
-  color: currentColor;
-}
-
-.nav-list a:hover,
-.nav-list a:focus {
-  color: #404bbf;
+  color: #2e2f42;
 }
 
 .contacts {
   font-style: normal;
 }
 
-.contacts-item {
-  color: currentColor;
+.contacts-link {
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
-.contacts-item:hover,
-.contacts-item:focus {
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
   color: #404bbf;
 }
 
+/* ----- Hero ----- */
 .hero {
   background-color: #2e2f42;
   text-align: center;
@@ -79,16 +74,16 @@ h3 {
   text-transform: capitalize;
 }
 
-.hero-title span {
+.hero-title-accent {
   text-transform: lowercase;
 }
 
 .hero-button {
-  background-color: #4d5ae5;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  background-color: #4d5ae5;
   cursor: pointer;
 }
 
@@ -97,6 +92,7 @@ h3 {
   background-color: #404bbf;
 }
 
+/* ----- About ----- */
 .section-title {
   font-size: 36px;
   line-height: 1.11;
@@ -110,37 +106,31 @@ h3 {
   letter-spacing: 0.02em;
 }
 
+/* ---- Our team ----- */
 .team {
   background-color: #f4f4fd;
 }
 
-.team-card {
+.team-card-item {
   background-color: #ffffff;
 }
 
-.team-text {
+.team-card-text {
   letter-spacing: 0.02em;
 }
 
+/* ----- Portfolio ----- */
 .portfolio-text {
   letter-spacing: 0.02em;
 }
 
+/* ----- Footer ---- */
 .footer {
   color: #f4f4fd;
   background-color: #2e2f42;
 }
-.footer-logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-}
 
-.footer-logo span {
+.footer-logo-accent {
   color: #f4f4fd;
 }
 
